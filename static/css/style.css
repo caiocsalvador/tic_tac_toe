@@ -69,6 +69,15 @@ h2 {
     height: 300px;
     width: 300px; }
     #playarea .field {
-      height: 100px; } }
+      height: 100px; }
+
+  .players {
+    padding-bottom: 5px;
+    padding-top: 0px; }
+    .players p {
+      margin-right: 0px;
+      margin-top: 15px; }
+      .players p.player2 {
+        float: right; } }
 
 /*# sourceMappingURL=style.css.map */

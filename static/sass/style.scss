@@ -1,3 +1,4 @@
+@import 'colors';
 h2{
 	margin-top: 30px;
 	margin-bottom: 20px;
@@ -14,10 +15,10 @@ h2{
 		margin-right: 30px;
 		margin-top: 15px;
 		&.player1{
-			color: #2A64B2;
+			color: $blue;
 		}
 		&.player2{
-			color: #E52E28;
+			color: $red;
 		}
 	}
 }
@@ -28,7 +29,7 @@ h2{
 	height: 390px;
 	width: 390px;
 	.field{
-		border: 1px solid rgba(0,0,0,.5);
+		border: 1px solid $border-color;
 		height: 130px;
 		display: flex;
 		cursor: pointer;
@@ -43,7 +44,7 @@ h2{
 			text-transform: uppercase;
 		}
 		&.checked{
-			background-color: #a5d6a7;
+			background-color: $green;
 		}
 	}
 }
@@ -62,19 +63,19 @@ h2{
 	}
 	.result{
 		padding: 20px;
-		border-bottom: 1px solid rgba(0,0,0,.5);
+		border-bottom: 1px solid $border-color;
 	}
 }
 .pagination{
 	strong, a{
-		color: #212529;
+		color: $text-color;
 		margin: 10px;
 		border-radius: 20px;
 		padding: 3px 10px;
 	}
 	strong{
-		color: #fff;
-		background-color: #212529;
+		color: $white;
+		background-color: $text-color;
 	}
 }
 
@@ -86,4 +87,15 @@ h2{
 			height: 100px;
 		}
 	}
+	.players{
+		padding-bottom: 5px;
+		padding-top: 0px;
+		p{
+			margin-right: 0px;
+			margin-top: 15px;
+			&.player2{
+				float: right;
+			}
+		}
+	}	
 }
