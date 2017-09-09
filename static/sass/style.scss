@@ -1,0 +1,67 @@
+h2{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.cont-play{
+	height: calc(100vh - 200px);
+	padding-bottom: 30px;
+}
+.players{
+	padding: 15px;
+	p{
+		margin-bottom: 0px;		
+		display: inline-block;
+		margin-right: 30px;
+		margin-top: 15px;
+		&.player1{
+			color: #2A64B2;
+		}
+		&.player2{
+			color: #E52E28;
+		}
+	}
+}
+.game{
+	height: 100%;
+}
+#playarea{
+	height: 390px;
+	width: 390px;
+	.field{
+		border: 1px solid rgba(0,0,0,.5);
+		height: 130px;
+		display: flex;
+		cursor: pointer;
+		p{
+			margin-bottom: 0px;
+			text-align: center;
+			width: 100%;
+			font-weight: 700;
+			-ms-flex-item-align: center!important;
+			align-self: center!important;
+			font-size: 4rem;
+			text-transform: uppercase;
+		}
+		&.checked{
+			background-color: #a5d6a7;
+		}
+	}
+}
+#sidebar{
+	text-align: center;
+	aside{
+		width: 100%;
+	}
+	h3{
+		text-transform: uppercase;
+		margin-bottom: 30px;
+		margin-top: 0px;
+	}
+	p{
+		margin-bottom: 0px;
+	}
+	.result{
+		padding: 20px;
+		border-bottom: 1px solid rgba(0,0,0,.5);
+	}
+}
