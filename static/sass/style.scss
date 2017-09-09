@@ -65,3 +65,25 @@ h2{
 		border-bottom: 1px solid rgba(0,0,0,.5);
 	}
 }
+.pagination{
+	strong, a{
+		color: #212529;
+		margin: 10px;
+		border-radius: 20px;
+		padding: 3px 10px;
+	}
+	strong{
+		color: #fff;
+		background-color: #212529;
+	}
+}
+
+@media (max-width: 400px) {
+	#playarea{
+		height: 300px;
+		width: 300px;
+		.field{
+			height: 100px;
+		}
+	}
+}

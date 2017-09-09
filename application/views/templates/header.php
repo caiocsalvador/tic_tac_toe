@@ -19,7 +19,10 @@
 			<div class="container">
 			  	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 					<a class="navbar-brand" href="<?php echo site_url(''); ?>">Tic Tac Toe</a>
-					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" 	data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="menu">
 						<ul class="navbar-nav ml-auto">							
 							<li class="nav-item <?=$is_home ? 'active' : ''?>">
 								<a class="nav-link" href="<?php echo site_url(''); ?>">Home</a>

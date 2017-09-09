@@ -55,4 +55,20 @@ h2 {
     padding: 20px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.5); }
 
+.pagination strong, .pagination a {
+  color: #212529;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 3px 10px; }
+.pagination strong {
+  color: #fff;
+  background-color: #212529; }
+
+@media (max-width: 400px) {
+  #playarea {
+    height: 300px;
+    width: 300px; }
+    #playarea .field {
+      height: 100px; } }
+
 /*# sourceMappingURL=style.css.map */

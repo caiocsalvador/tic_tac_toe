@@ -11,7 +11,7 @@ class Matches extends CI_Controller {
 	}
 
 	public function store() {
-		
+		//Setting variables before send to the model
 		$data = array (
 			'player1' => $this->input->post('player1'),
 			'player2' => $this->input->post('player2'),
