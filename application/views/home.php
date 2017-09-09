@@ -40,7 +40,7 @@
 					</div>							
 				</div>
 				<div class="reset d-flex">
-					<button type="buttom" class="btn btn-danger mt-5 ml-auto mr-auto restart">RESET</button>
+					<button type="buttom" class="btn btn-danger mt-5 mb-5 ml-auto mr-auto restart">RESET</button>
 				</div>
 			</div>
 		</div>
